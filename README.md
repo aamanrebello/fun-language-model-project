@@ -9,7 +9,7 @@ The Python dependencies you'd need to do this are listed in `app/requirements.tx
 
 ## Important Note
 
-You need a language model in GGUF format within the app folder - the code assumes it is called `model.gguf`. I did not upload mine to GitHub, but I included a JuPyter notebook you can use to download a model off HuggingFace and convert it to GGUF. You can download the gguf file to your local system (for the model used in the notebook, the file size comes to 258 MB) and then run the app locally or create your Docker image.
+You need a language model in GGUF format within the app folder - the code assumes it is called `model.gguf`. I did not upload mine to GitHub, but I included a JuPyter notebook you can use to download a model off HuggingFace and convert it to GGUF. One way you can run this notebook is using Google Colab e.g. visit [GitHubtoColab](https://githubtocolab.com/aamanrebello/fun-language-model-project/blob/main/generate-model-gguf.ipynb). You would then download the GGUF file from the Colab instace filesystem. Once the GGUF file is on your local system (for the model used in the notebook, the file size comes to 258 MB) you can then run the app locally or create your Docker image.
 
 ## What the Server App Does
 
